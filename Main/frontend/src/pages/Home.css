@@ -1,0 +1,9 @@
+/* src/pages/Home.css */
+.home-container {
+    height: 100vh; /* Full viewport height */
+    background-image: url('../assets/images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg'); /* Adjust the path */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+  }
+  
