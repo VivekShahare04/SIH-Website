@@ -5,5 +5,58 @@
     background-size: cover; /* Cover the entire area */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent repeating the image */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
   }
-  
+
+.content {
+  text-align: center;
+  padding: 20px;
+  color: white; /* Adjust color based on your design */
+}
+
+.description {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  border-radius: 10px;
+  max-width: 800px;
+}
+
+.description h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.description p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #f1f1f1;
+}
+
+.description ul {
+  text-align: left;
+  list-style-type: square;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.description ul li {
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* Starts slightly below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Ends at its original position */
+  }
+}
