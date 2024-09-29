@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import './Team.css';
 
-import vivek from '../assets/images/vivek3.jpg';
+import vivek from '../assets/images/vivek1.jpg';
 import param from '../assets/images/param.jpg';
 import astha from '../assets/images/astha.jpg';
 import shraddha from '../assets/images/shraddha.jpg';
