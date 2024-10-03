@@ -31,7 +31,6 @@ const Resources = () => {
   return (
     <div className="resources-container">
       <h1>Resources</h1>
-      <p>Explore the resources that we have used and recommend for further learning.</p>
       <div className="resources-list">
         {resourcesList.map((resource, index) => (
           <div key={index} className="resource-item">
