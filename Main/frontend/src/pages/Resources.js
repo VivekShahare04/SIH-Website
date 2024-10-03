@@ -18,7 +18,7 @@ const Resources = () => {
     },
     {
       title: 'Capacitance-Based Measurement of Electrical Conductivity',
-      description: 'his study presents a new method for measuring electrical conductivity using capacitance techniques. By evaluating capacitance changes related to ionic concentration, this non-invasive approach provides accurate conductivity assessments.',
+      description: 'This study presents a new method for measuring electrical conductivity using capacitance techniques. By evaluating capacitance changes related to ionic concentration, this non-invasive approach provides accurate conductivity assessments.',
       link: 'https://drive.google.com/file/d/1L3SVgiP8iWtShcocTib9xpuRKm0DgePA/view?usp=sharing',
     },
     {
