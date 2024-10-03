@@ -22,29 +22,28 @@ const Home = () => {
         <Loader />  // Show loader while loading is true
       ) : (
         <>
-          <Navbar />  // Show Navbar after loading is complete
+          <Navbar />  
           <div className="content">
             <image3d />  {/* Display 3D image */}
             
             {/* Paragraph content */}
             <div className="description">
-              <h1>About Our Project</h1>
+              <h1>Project Overview</h1>
               <p>
-                Welcome to our project! This application is designed to provide an innovative solution to [your project’s main goal]. 
-                Built with cutting-edge technology, including React for the front end and Node.js with MongoDB for the back end, 
-                this project serves as a robust platform for [describe the functionality or purpose].
+              Welcome to our project! This application provides an innovative solution for testing water quality in rural areas through personalized testing kits. 
+              Utilizing capacitive sensing technology and machine learning, we aim to deliver accurate and real-time assessments of residual chlorine and other contaminants.
               </p>
               <p>
-                Our project aims to [describe the specific aims of your project]. 
-                We focus on [key aspects of your work], ensuring that [more details on the user benefits].
-                Whether you're here to explore or contribute, we hope this platform provides the tools and information you need.
+              Our project focuses on ensuring safe drinking water by automating water quality testing, making it accessible and affordable for rural communities. 
+              We leverage advanced technologies to provide reliable insights, enabling informed decision-making regarding water safety.
               </p>
               <h2>Technologies Used:</h2>
               <ul>
+                <li>Capacitive Sensing Technology for accurate water quality measurements</li>
+                <li>Machine Learning for predictive analytics and real-time monitoring</li>
                 <li>React for the dynamic front-end interface</li>
-                <li>Node.js for back-end API integration</li>
-                <li>MongoDB for storing user data and resources</li>
-                <li>Three.js for rendering 3D models</li>
+                <li>ThingSpeak for live data monitoring and analysis</li>
+                <li>Arduino for hardware integration and sensor control</li>
               </ul>
             </div>
           </div>

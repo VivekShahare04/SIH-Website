@@ -3,6 +3,7 @@
     background-color: #333;
     overflow: hidden;
     padding: 10px;
+    border-radius:50px ;
   }
   
   .navbar ul {
@@ -11,6 +12,7 @@
     padding: 0;
     display: flex;
     justify-content: space-around;
+    border-radius: 10px;
   }
   
   .navbar ul li {
@@ -23,6 +25,7 @@
     padding: 14px 20px;
     text-decoration: none;
     display: block;
+    border-radius: 10px;
   }
   
   .navbar ul li a:hover {

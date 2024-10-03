@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import Navbar from '../components/Navbar';
 import './Team.css';
 
 import vivek from '../assets/images/vivek1.jpg';
@@ -7,6 +8,7 @@ import param from '../assets/images/param.jpg';
 import astha from '../assets/images/astha.jpg';
 import shraddha from '../assets/images/shraddha.jpg';
 import neel from '../assets/images/Neel.jpg';
+import himanshu from '../assets/images/dada.jpg';
 
 const Team = () => {
   const teamMembers = [
@@ -15,7 +17,7 @@ const Team = () => {
     { name: 'Astha Dhapodkar', branch: 'Information Technology', image: astha ,description:'Astha is a dedicated problem solver and the Lead of Content Writing, holding more than two key positions within our organization. Her exceptional ability to tackle challenges and create compelling content makes her an invaluable asset to our team'},
     { name: 'Shraddha Malode', branch: 'EXTC', image: shraddha,description:'Shraddha is a creative thinker and innovative mind, known for her skills in project management and coordination' },
     { name: 'Neel Chavan', branch: 'Electrical', image: neel ,description:'He is a proactive learner and an aspiring engineer, always eager to take on new challenges and develop his skills in technology and engineering. He is also the Secretary of the Entrepreneurship Cell.'},
-    { name: 'Himanshu Parate', branch: 'Computer Science & Engineering', image: 'path_to_image6',description:'A dedicated developer with a knack for solving complex problems, Himanshu is passionate about programming and continually enhancing his technical skills.' },
+    { name: 'Himanshu Parate', branch: 'Computer Science & Engineering', image: himanshu,description:'A dedicated developer with a knack for solving complex problems, Himanshu is passionate about programming and continually enhancing his technical skills.' },
   ];
 
   const slideInAnimation = {
