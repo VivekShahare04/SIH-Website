@@ -5,16 +5,19 @@ import Contact from './pages/Contact';
 //import Projects from './pages/Projects';
 import Team from './pages/Team';
 import Resources from './pages/Resources';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <Router>
-      <Routes>
+      <div>
+        <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/team" element={<Team />} />
       </Routes>
+      </div>
     </Router>
   );
 }
