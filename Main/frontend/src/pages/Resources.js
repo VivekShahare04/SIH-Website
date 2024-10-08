@@ -7,8 +7,8 @@ import './Resources.css'
 const Resources = () => {
   const resourcesList = [
     {
-      title: 'Dataset',
-      description: 'Train a machine learning model on a 20,000-sample dataset to efficiently predict outcomes. The process includes data preprocessing, feature selection, and model training, enhancing accuracy through techniques like cross-validation.',
+      title: 'Dataset by Dr.Sachin Jadhao',
+      description: 'Train a machine learning model on a 20,000-sample dataset created by Dr.Sachin Jadhao (Chemical Engineering ,Phd.ICT Bombay & Post doct.Cornell University,USA ) to efficiently predict outcomes. The process includes data preprocessing, feature selection, and model training, enhancing accuracy through techniques like cross-validation.',
       link: 'https://drive.google.com/file/d/1Lct5Rv71bjEpwOaY_2Tkf_cbaru2pwfl/view',
     },
     {
